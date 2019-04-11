@@ -33,7 +33,6 @@
 		  } else {
 		  	getRegToken();
 		  }
-		  
 		}).catch(function(err) {
 		  console.log('Unable to get permission to notify.', err);
 		});
@@ -88,6 +87,13 @@
 
 		messaging.onMessage( function( payload ) {
 			console.log('payload', payload);
+
+			notificationTitle = payload.data.title;
+			notificationOptions = {
+				body: payload.data.body,
+				icon: payload.data.icon
+			}
+			var notification = new Notification( notificationTitle, notificationOptions );
 		} );
     </script>
 </head>
