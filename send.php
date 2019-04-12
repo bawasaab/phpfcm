@@ -1,5 +1,6 @@
-<?php
-	define('SERVER_API_KEY', 'AIzaSyDMJqJA9h3QpXjH0cuINWSt3FslAOlUpbU');
+<?php	
+	// AIzaSyDMJqJA9h3QpXjH0cuINWSt3FslAOlUpbU
+	define('SERVER_API_KEY', '');
 
 	$tokens = ['fy7RDsw5UQM:APA91bGcImYMvEj5uCwQFNk4VUPH2hacf80qNwp37njG9P4GqQjALZHoMGJJ3OifwQOdePjEx83bA9rBzGdwJPmNq2f91kuVOqCYCaYwvzjicKGN-hnhLFHzyXmT5dGLccYYMJLWPubC'];
 	// $tokens = 'cAr2q3AkD_k:APA91bFam7VpKoAFLLjtmlcLlHYNUYPhKCHxqo0MFEPxR62w6LXHitTe_CHKC9wUrJk_3QQ6Y6j_eB34zVNpr5XxVv-eRVNUfPD6zrVoOw_oniYk1x2pXmUG5k33GtuaoYGZlsrQM6KU';
